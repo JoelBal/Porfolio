@@ -1,0 +1,33 @@
+body {
+    background-image: url(public/images/pow-star.jpg);
+}
+
+
+.bg-image {
+    background-image: url(public/images/pow-star.jpg);
+    
+
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman', Times, serif;
+    background-position: 50% 100px;
+}
+
+.navbar {
+    background-color: cyan;
+    padding: 1em;
+    font-family: fantasy;
+    
+}
+
+.card {
+    background: rgb(61, 97, 139);
+    padding: 1em;
+}
+
+.carousel{
+    display:block;
+    margin-left:auto;
+    width: 50%;
+    height: auto;
+    
+}

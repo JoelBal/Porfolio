@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<title>Homepage</title>
+<body>
+  <nav> 
+    <div class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">FullStackJab</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="pages/contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" type="button" data-bs-toggle="modal" href="#"
+              data-bs-target="#AboutModal">About</a>
+            <div class="modal fade" id="AboutModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="AboutModalLabel">About</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Hello I'm Joel
+                  </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Projects
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="pages/projects.html">Projects</a></li>
+              <li><a class="dropdown-item" href="https://github.com/JoelBal/CodeQuiz.git">Code Quiz</a></li>
+              <li><a class="dropdown-item" href="https://github.com/JoelBal/H3_Pass_Gen.git">Password</a></li>
+              <li><a class="dropdown-item" href="https://github.com/JoelBal/EmployeeManagement.git">EmployeeManagment</a></li>
+              <li><a class="dropdown-item" href="https://github.com/JoelBal/ReadmeGenerator.git">ReadmeGenerator</a></li>
+              <li><a class="dropdown-item" href="https://github.com/JoelBal/HotandCold.git">Hot&Cold</a></li>
+              <li><a class="dropdown-item" href="https://github.com/JoelBal/DuxStore.git">DuxStore</a></li>
+              <li><a class="dropdown-item" href="https://github.com/JoelBal/FitTrack.git">FitTrack</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputfirst4" class="form-label">First Name</label>
+          <input type="first" class="form-control" id="inputlast4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputlast4" class="form-label">Last Name</label>
+          <input type="last" class="form-control" id="inputlast4">
+        </div>
+        <div class="col-12">
+          <label for="inputphone" class="form-label">Phone Number</label>
+          <input type="text" class="form-control" id="inputphone" placeholder="000-000-0000">
+        </div>
+        <div class="col-12">
+          <label for="inputemail" class="form-label">Email</label>
+          <input type="text" class="form-control" id="inputemail" placeholder="johndoe@email.com">
+        </div>
+        <div class="col-12">
+          <label for="inputrequest2" class="form-label">Request</label>
+          <input type="text" class="form-control" id="inputRequest2" placeholder="Please give a description of your request">
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+      <script src="./script.js"></script>
+</body>
